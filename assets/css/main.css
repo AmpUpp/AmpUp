@@ -10,6 +10,8 @@
   --color-text: #676767;
   --color-border: #373737;
 
+  
+
   /* Font & Typography
   ___________________*/
   --ff-body: "Space Grotesk", sans-serif;
@@ -44,6 +46,26 @@
 
 /* CSS Reset
 --------------------------------------------------------------*/
+/* Remove restriction */
+#about .container {
+  max-width: 100%;
+  padding: 0 40px; /* optional spacing */
+}
+
+/* Make text expand horizontally */
+.about__content {
+  max-width: 100%;
+  text-align: center; /* or left if you prefer */
+}
+
+.about__title {
+  font-size: 2.2rem;
+  line-height: 1.4;
+  margin-bottom: 5rem;
+  text-align: center;
+  white-space: normal; /* allows wrapping instead of shrinking */
+}
+
 *,
 *::before,
 *::after {
@@ -345,6 +367,7 @@ background-color: black;
 .about__title {
   font-size: var(--fs-xxl);
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 .about__description {
