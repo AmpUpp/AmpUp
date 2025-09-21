@@ -1,7 +1,7 @@
 :root {
   /* Colors
   ____________________*/
-  --color-primary: #25ab75;
+  --color-primary: #FF7F00;
   --color-primary-dark: #208c61;
   --color-bg-primary: #DCDCDC;
   --color-bg-secondary: #242424;
@@ -762,3 +762,4 @@ background-color: black;
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
